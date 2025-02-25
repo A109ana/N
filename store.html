@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABDELRAHMAN STORE </title>
+
+</head>
+<p>your current balance : <span id ="balanceDisplay">50000000</span></p>
+<img src ="https://c.top4top.io/p_3340oqxtr0.jpeg"
+width ="300">
+<button id="s">Muhammad 15000000€</button>
+<img src="https://b.top4top.io/p_3340n79be3.jpeg" width ="300">
+<button id="m">Omar 10000000€</button>
+<img src="https://b.top4top.io/p_33401zj7l7.jpeg" width ="300">
+<button id="e">Meesi 12000000€</button>
+<img src ="abdo.jpg"300">
+  <button id="n">ABDELRAHMAN 20000000€</button>
+
+  
+
+
+
+
+<body>
+<button id="a"> check out </button>
+<form action ="">
+<form action ="">
+  <form>
+  <fieldset>
+<div>
+<input type ="email" id ="g" placeholder="gmail" required>
+</div>
+<div>
+<input type ="password" id ="p" placeholder="password" required >
+</div>
+<div>
+<input  type ="tel"  id ="v" placeholder="number" required >
+</div>
+<input type ="submit" value="send">
+</fieldset>
+</form>
+</form></form>
+<script>
+
+let q=prompt("who is the best player in the world ?")
+alert("great you won 50000000€")
+
+let balance = 50000000;
+     let s = 0;
+     let m = 0;   
+     let a = 0;
+     let e = 0;
+     let n = 0;
+     
+     document.getElementById("s").addEventListener("click",function(){
+       s = 15000000 ;
+    alert(s + ("euro"));
+  
+});
+  document.getElementById("m").addEventListener("click",function(){
+ m = 10000000;
+alert(m + ("euros") )
+ });  
+ document.getElementById("e").addEventListener("click",function(){
+ e = 12000000 ;
+ alert(e  + ("euros"))
+ });
+ document.getElementById("n").addEventListener("click",function(){
+n = 20000000 ;
+alert(n + ("euros"))
+ });
+
+ document.getElementById("a").addEventListener("click",function(){
+
+  a = s + m + e + n ;
+  alert(("products selected at a price")+ a +("euros"))
+
+let w = document.getElementById("balanceDisplay").textContent = balance - a ;
+  
+
+
+});
+
+document.getElementById("l").addEventListener("click",function(){
+  if(a>balance) {
+    
+    document.getElementById("balanceDisplay").
+          textContent = a-e ;
+          swal.fire("messi is removed!")
+  }
+});
+    </script>
+</body>
+</html>
